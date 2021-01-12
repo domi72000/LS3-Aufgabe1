@@ -18,7 +18,7 @@ int main() {
 	srand(time(NULL));
 
 	while (true) {
-		double messwert = (rand() & 10000) / 100.0;
+		double messwert = (rand() % 10000) / 100.0;
 
 		cout << "M:" << messwert << endl;
 		anzahl++;
