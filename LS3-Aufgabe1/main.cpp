@@ -10,7 +10,7 @@ int main() {
 	int anzahl = 0;
 	double summe = 0;
 	double max = 0;
-	double min = 0;
+	double min = 100;
 	double mittelwert = 0;
 	double sqr_sum = 0;
 	double std_abw = 0;
